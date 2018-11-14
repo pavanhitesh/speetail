@@ -1,0 +1,92 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 215492300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify Alexa Connected",
+        "description": "",
+        "id": "example-for-alexa;verify-alexa-connected",
+        "after": [
+          {
+            "result": {
+              "duration": 33800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.embedScreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 298984000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user configured the alexa device",
+            "match": {
+              "location": "StepDefinitions.user_configured_the_alexa_device()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "connected to Jenkins and GitHub",
+            "match": {
+              "location": "StepDefinitions.connected_to_Jenkins_and_GitHub()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ask Alexa to execute any command",
+            "match": {
+              "location": "StepDefinitions.ask_Alexa_to_execute_any_command()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@example1"
+          }
+        ]
+      }
+    ],
+    "name": "Example for Alexa",
+    "description": "",
+    "id": "example-for-alexa",
+    "keyword": "Feature",
+    "uri": "example.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@example"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+2018-10-24 10:08:38 INFO  StepDefinitions:22  - Started the Scenario
+2018-10-24 10:08:38 INFO  StepDefinitions:36  - User sucessfuly connected to Alexa device
+2018-10-24 10:08:38 INFO  StepDefinitions:41  - User Connected to Jenkins and GitHub
+2018-10-24 10:08:38 INFO  StepDefinitions:46  - Alexa executed the command
+2018-10-24 10:08:38 INFO  StepDefinitions:28  - After method executed
